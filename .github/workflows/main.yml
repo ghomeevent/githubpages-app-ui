@@ -2,9 +2,9 @@ name: CI/CD
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ gh-pages ]
   pull_request:
-    branches: [ develop ]
+    branches: [ gh-pages ]
 
 jobs:
   build:
